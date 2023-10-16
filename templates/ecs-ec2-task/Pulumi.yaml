@@ -1,0 +1,3 @@
+name: ecs-ec2-task
+runtime: nodejs
+description: A minimal AWS TypeScript Pulumi program

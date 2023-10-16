@@ -1,0 +1,10 @@
+config:
+  aws:region: us-west-2
+  ecs-ec2-task:env: staging
+  ecs-ec2-task:alb: test-dev-alb
+  ecs-ec2-task:cluster: test-dev-cluster
+  ecs-ec2-task:listener: arn:aws:elasticloadbalancing:us-west-2:testlistener
+  ecs-ec2-task:cert: arn:aws:acm:us-west-2:staging-testcrt
+  ecs-ec2-task:url: test.staging.com
+  ecs-ec2-task:NEXT_PUBLIC_API_URL: https://test.staging.com/api
+  thatcham-infra:rulePriority: 12

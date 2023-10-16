@@ -1,0 +1,10 @@
+config:
+  aws:region: us-west-2
+  ecs-ec2-task:env: prod
+  ecs-ec2-task:alb: test-prod-alb
+  ecs-ec2-task:cluster: test-prod-cluster
+  ecs-ec2-task:listener: arn:aws:elasticloadbalancing:us-west-2:testlistener
+  ecs-ec2-task:cert: arn:aws:acm:us-west-2:prod-testcrt
+  ecs-ec2-task:url: test.prod.com
+  ecs-ec2-task:NEXT_PUBLIC_API_URL: https://test.prod.com/api
+  thatcham-infra:rulePriority: 10
