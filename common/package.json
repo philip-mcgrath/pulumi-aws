@@ -1,0 +1,19 @@
+{
+  "name": "pulumi-aws",
+  "scripts": {
+    "config:secret": "pulumi config set --secret",
+    "config:set": "pulumi config set",
+    "destroy": "pulumi destroy",
+    "destroy:unprotected": "pulumi destroy --exclude-protected",
+    "up": "pulumi up"
+  },
+  "dependencies": {
+    "@pulumi/aws": "^6.0.2",
+    "@pulumi/awsx": "^1.0.0",
+    "@pulumi/pulumi": "^3.0.0",
+    "typescript": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.18.58"
+  }
+}

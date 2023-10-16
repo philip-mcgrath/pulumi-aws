@@ -1,0 +1,3 @@
+name: pulumi-aws
+runtime: nodejs
+description: Common networking and ECS infastructure for running code
