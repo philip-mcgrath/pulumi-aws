@@ -4,10 +4,10 @@ This folder contains the commone infra used by AWS resources
 
 ## Networking & Routing
 
-- VPC config including 3 availibility zones each containing a private and public subnet. The VPC also contains a internet gatewat and natgateway
+- VPC config including 3 availibility zones each containing a private and public subnet. The VPC also contains a internet gateway and NAT gateway
 - An Applicaiton Load Balancer with listeners on ports 80 (HTTP) and 443 (HTTPS)
 - More load balancers can be added as needed for clients
-- Default SSL cert for intergalactic.com
+- Default SSL cert
 
 ## IAM & Security
 
